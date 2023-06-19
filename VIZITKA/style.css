@@ -1,0 +1,278 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+    height: 2200px;
+}
+#table{
+    background-color:#B0C4DE;
+    height: 100px;
+    width: 1503px;
+    margin-left:260px;
+    margin-right: 260px;
+    border:1mm ridge rgba(235, 230, 236, 0.6);
+    filter: drop-shadow(0 15px 20px rgba(0, 0, 0, 0.5));
+    border-radius: 1px;
+}
+#basic{
+    background-color: rgb(153, 206, 250);
+    margin-left: 260px;
+    width: 1503px;
+    height: 1695.5px;
+    display: flex;
+    padding-top: 42px;
+}
+
+.osn *{
+   margin-top:40px;
+}
+#border{
+    background-color:rgb(168, 205, 235);
+    border:2mm ridge rgba(204, 186, 211, 0.6);
+    height:650px;
+    margin-top: 20px;
+    min-width: 280px;
+    border-radius: 10px;
+}
+.bok *{
+    margin:10px;
+}
+#basixc{
+    background-color:#B0C4DE ;
+    position: relative;
+    top: 30px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: fantasy;
+
+}
+#circle{
+    background-color: cornflowerblue;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    position: relative;
+    bottom:30px ;
+    margin-left: 8px;
+}
+#w{
+   position: relative;
+   bottom: 100px;
+   margin-left: 35px;
+   font-size: 50px;
+   background-color: unset;
+}
+.words,
+.words *{
+    position: relative;
+    bottom: 75px;
+    display: flex;
+    margin-left:150px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+
+.words :hover{
+    background-color: lawngreen;
+    height: auto;
+}
+#Categ,
+#Categ {
+    width:135px;
+    position: relative;
+}
+
+
+.menu,
+.menu *{
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+    left: 0;
+    flex-wrap: wrap;
+    display: block;
+    margin: 0;
+}
+
+.menu {
+    display: none;
+    left: 0;
+    top: 29px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Categ:hover .menu,
+#Categ:hover *:hover {
+    display: block;
+}
+
+.menu *:hover{
+    background-color:lawngreen;
+
+}
+#name{
+    font-size: 30px;
+    height: 5px;
+    width: auto;
+}
+p1{
+    font-size: 20px;
+    -webkit-print-color-adjust: exact;
+
+}
+#text{
+
+}
+ul.menu:hover{
+    background-color: red;
+}
+#img *{
+    margin-top:20px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: #ced9fb;
+    text-decoration: underline;
+}
+a{
+  text-decoration:none;
+}
+a:visited{
+    background-color:unset;
+}
+#backg{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 365px;
+    border-radius: 5px;
+    margin:0px;   
+    float: right;
+}
+#mborder{
+    background-color: white;
+    width: 286px;
+    height: 300px;
+    display: flex;
+    margin-left: 10px;
+    box-shadow: 10px 8px 14px 1px black;
+}
+#soder{
+    margin-left: 92px;
+}
+#container1{
+    background-color: white;
+    margin: 0px;
+    border: inset;
+    width: 90px;
+}
+#container2{
+    background-color: white;
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+}
+#container3{
+    background-color: white;
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+}
+.container *{
+    border: ridge;
+}
+#container4{
+    background-color: white;
+    margin: 0px;
+    border: inset;
+    width: 90px;
+}
+#container5{
+    background-color: white;
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+    width: 295px;
+}
+#container6{
+    background-color: white;
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+    
+}
+#container7{
+    background-color: white;
+    margin: 0px;
+    border: inset;
+    width: 90px;
+}
+#container8{
+    background-color: white;
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+    width: 320px;
+}
+#container9{
+    background-color: white;
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+}
+#container10{
+    background-color: rgb(19, 18, 18);
+    margin: 0px;
+    border: inset;
+    width: 180px;
+
+}
+#container11{
+    background-color: rgb(53, 53, 53);
+    flex-grow: 1;
+    margin: 0px;
+    border:inset;
+}
+.gallery,
+.gallery *{
+    margin: 0px;
+    border-radius:5px
+}
+#photo1 *:hover{
+    position: relative;
+    min-height:581px;
+    margin:0px;
+    width: 500px;
+    -webkit-transform: rotate(3deg);
+    border:solid;
+    border-radius:10px;
+}
+#photo2 *:hover{
+    position: relative;;
+    min-height:581px;
+    margin:0px;
+    -webkit-transform: rotate(-3deg);
+    border:solid;
+    border-radius:10px
+    }
+#photo3 *:hover{
+    position: relative;;
+    min-height:581px;
+    margin:0px;
+    -webkit-transform: rotate(6deg);
+    border:solid;
+    border-radius:10px
+}
+#photo4 *:hover{
+    position: relative;;
+    min-height:581px;
+    margin:0px;
+    -webkit-transform: rotate(-6deg);
+    border:solid;
+    border-radius:10px
+}
